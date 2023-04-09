@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn-main{
-    @apply shadow-md font-semibold  md:mb-0  px-3 py-2 md:px-8 md:py-3 m-2 text-lg rounded-lg text-white border-transparent border-2 bg-gradient-to-r from-[#7E90FE] to-[#9873FF];
-}
+.btn-main {
+    @apply shadow-md font-semibold  md:mb-0  px-3 py-2 md:px-6 md:py-2 text-lg rounded-lg text-white border-transparent border-2 bg-gradient-to-r from-[#7E90FE] to-[#9873FF];
+  }
+  .text-main {
+    @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] bg-clip-text text-transparent font-medium;
+  }
