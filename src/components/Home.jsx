@@ -4,6 +4,7 @@ import JobCat from './JobCat';
 import FeaturedJob from './FeaturedJob';
 
 const Home = () => {
+    
     return (
         <div>
         <Header></Header>

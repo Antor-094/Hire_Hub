@@ -1,0 +1,112 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "company_logo": "google_logo.png",
+      "title": "Software Engineer",
+      "company_name": "Google",
+      "remote_or_onsite": "Onsite",
+      "location": "Mountain View, CA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$120,000 - $150,000 per year",
+      "job_description": "We are seeking a talented software engineer to join our team at Google. In this role, you will work on developing and maintaining software applications for a variety of platforms, including web and mobile. You will collaborate with a team of engineers, product managers, and designers to deliver high-quality software products to our users.",
+      "job_responsibility": "Responsibilities:Design, develop, and maintain software applications for web and mobile platforms.Collaborate with cross-functional teams to deliver high-quality software products .Write clean, efficient, and maintainable code .Identify and fix bugs and performance issues .Continuously improve the software development process and best practices",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "5+ years of experience in software development",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@google.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "tesla_logo.png",
+      "title": "Mechanical Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Onsite",
+      "location": "Fremont, CA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$90,000 - $120,000 per year",
+      "job_description": "We are looking for a skilled mechanical engineer to join our team at Tesla. In this role, you will be responsible for designing and developing mechanical systems and components for our electric vehicles. You will work with a team of engineers and designers to create innovative and high-quality products that will help us achieve our mission of accelerating the world's transition to sustainable energy.",
+      "job_responsibility": "Responsibilities: Design and develop mechanical systems and components for electric vehicles .Collaborate with cross-functional teams to ensure design and manufacturing feasibility .Conduct testing and validation of mechanical components and systems. Create and maintain design documentation and specifications .Continuously improve the mechanical design process and best practices",
+      "educational_requirements": "Bachelor's or Master's degree in Mechanical Engineering or related field",
+      "experiences": "3+ years of experience in mechanical engineering",
+      "contact_information": {
+        "phone": "555-5678",
+        "email": "hr@tesla.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "apple_logo.png",
+      "title": "Product Designer",
+      "company_name": "Apple",
+      "remote_or_onsite": "Onsite",
+      "location": "Cupertino, CA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$100,000 - $130,000 per year",
+      "job_description": "We are seeking a talented product designer to join our team at Apple. In this role, you will work on designing and developing user interfaces and user experiences for a variety of software products and platforms. You will collaborate with a team of designers, engineers, and product managers to create intuitive and delightful software experiences for our users.",
+      "job_responsibility": "Responsibilities: Design and develop user interfaces and user experiences for software products and platforms .Collaborate with cross-functional teams to create intuitive and delightful software experiences .Conduct user research and usability testing to inform design decisions.Create design specifications and guidelines to ensure consistency and quality",
+      "educational_requirements": "Bachelor's or Master's degree in Graphic Design, Product Design, or related field",
+      "experiences": "3+ years of experience in product design",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@apple.com"
+      }
+    },
+    {
+      "id": 4,
+      "company_logo": "amazon_logo.png",
+      "title": "Data Scientist",
+      "company_name": "Amazon",
+      "remote_or_onsite": "Onsite",
+      "location": "Seattle, WA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$130,000 - $160,000 per year",
+      "job_description": "We are seeking a skilled data scientist to join our team at Amazon. In this role, you will work on developing and implementing data models and algorithms to support business decision making. You will collaborate with a team of data scientists, engineers, and business analysts to deliver insights and recommendations that drive business growth and success.",
+      "job_responsibility": "Responsibilities:Develop and implement data models and algorithms to support business decision making.Collaborate with.cross-functional teams to deliver insights and recommendations that drive business growth and success.Analyze and interpret complex data sets to identify trends and patterns.Communicate findings and recommendations to stakeholders in a clear and concise manner",
+      "educational_requirements": "Master's or Ph.D. degree in Data Science, Computer Science, Statistics, or related field",
+      "experiences": "5+ years of experience in data science or related field",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@amazon.com"
+      }
+    },
+    {
+      "id": 5,
+      "company_logo": "netflix_logo.png",
+      "title": "Senior Software Engineer",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Remote",
+      "location": "Anywhere",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$150,000 - $180,000 per year",
+      "job_description": "We are seeking a senior software engineer to join our team at Netflix. In this role, you will work on designing, developing, and maintaining scalable and reliable software systems that power our streaming service. You will collaborate with a team of software engineers, data scientists, and product managers to deliver a world-class streaming experience to our users.",
+      "job_responsibility": "Responsibilities:Design, develop, and maintain scalable and reliable software systems that power our streaming service.Collaborate with cross-functional teams to deliver a world-class streaming experience to our users.Write clean, efficient, and well-documented code.Participate in code reviews and provide constructive feedback to team members",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "8+ years of experience in software engineering or related field",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@netflix.com"
+      }
+    },
+    {
+      "id": 6,
+      "company_logo": "spacex_logo.png",
+      "title": "Flight Software Engineer",
+      "company_name": "SpaceX",
+      "remote_or_onsite": "Onsite",
+      "location": "Hawthorne, CA",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "$120,000 - $150,000 per year",
+      "job_description": "We are seeking a flight software engineer to join our team at SpaceX. In this role, you will work on developing and maintaining software systems that are critical to the success of our space missions. You will collaborate with a team of engineers, technicians, and mission managers to design and implement software solutions that ensure the safety and reliability of our spacecraft.",
+      "job_responsibility": "Responsibilities:Develop and maintain software systems that are critical to the success of our space missions.Collaborate with cross-functional teams to design and implement software solutions that ensure the safety and reliability of our spacecraft.Write clean, efficient, and well-documented code.Participate in code reviews and provide constructive feedback to team members",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science, Aerospace Engineering, or related field",
+      "experiences": "5+ years of experience in software engineering or related field",
+      "contact_information": {
+        "phone": "555-1234",
+        "email": "jobs@spacex.com"
+      }
+    }
+  ]
+}

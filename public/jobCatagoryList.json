@@ -1,0 +1,25 @@
+{
+    "categories": [
+      {
+        "logo": "../src/assets/jobListImages/What_is_Information_Technology.webp",
+        "name": "Information Technology",
+        "jobs_available": 1056
+      },
+      {
+        "logo": "../src/assets/jobListImages/Healthcare.webp",
+        "name": "Healthcare",
+        "jobs_available": 867
+      },
+      {
+        "logo": "../src/assets/jobListImages/education.jpg",
+        "name": "Education",
+        "jobs_available": 634
+      },
+      {
+        "logo": "../src/assets/jobListImages/Arker_Blog_01_Sales_Finance_2560px.jpg",
+        "name": "Finance",
+        "jobs_available": 512
+      }
+    ]
+  }
+  
