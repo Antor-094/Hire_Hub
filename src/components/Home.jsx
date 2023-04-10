@@ -7,7 +7,7 @@ import { useLoaderData } from "react-router-dom";
 // export const jobCategoryListContext = createContext([])
 const Home = () => {
   // console.log(jobs)
-  const jobs = useLoaderData();
+  const allJobs = useLoaderData();
   const [jobItems, setJobItem] = useState([]);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const Home = () => {
     <div>
       <Header></Header>
       <JobCat jobItems={jobItems}></JobCat>
-      <FeaturedJob></FeaturedJob>
+      <FeaturedJob allJobs={allJobs}></FeaturedJob>
     </div>
   );
 };

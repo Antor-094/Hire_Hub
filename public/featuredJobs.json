@@ -2,7 +2,7 @@
   "jobs": [
     {
       "id": 1,
-      "company_logo": "google_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/googlelogo2.jpg",
       "title": "Software Engineer",
       "company_name": "Google",
       "remote_or_onsite": "Onsite",
@@ -20,7 +20,7 @@
     },
     {
       "id": 2,
-      "company_logo": "tesla_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/tesla2.png",
       "title": "Mechanical Engineer",
       "company_name": "Tesla",
       "remote_or_onsite": "Onsite",
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "company_logo": "apple_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/Apple-Logo.png",
       "title": "Product Designer",
       "company_name": "Apple",
       "remote_or_onsite": "Onsite",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "company_logo": "amazon_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/amazon-logo-1.jpg",
       "title": "Data Scientist",
       "company_name": "Amazon",
       "remote_or_onsite": "Onsite",
@@ -74,7 +74,7 @@
     },
     {
       "id": 5,
-      "company_logo": "netflix_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/1200px-Logonetflix.png",
       "title": "Senior Software Engineer",
       "company_name": "Netflix",
       "remote_or_onsite": "Remote",
@@ -92,7 +92,7 @@
     },
     {
       "id": 6,
-      "company_logo": "spacex_logo.png",
+      "company_logo": "../src/assets/featuredjobslogo/sp.png",
       "title": "Flight Software Engineer",
       "company_name": "SpaceX",
       "remote_or_onsite": "Onsite",
