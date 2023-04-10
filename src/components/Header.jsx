@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="flex flex-col-reverse md:flex-row gap-16 mt-12 md:w-[80%] md:mx-auto  justify-center items-center">
+       <div className='bg-gradient-to-r from-indigo-100 to-purple-300'>
+         <div className="flex flex-col-reverse md:flex-row gap-16 -mt-0  
+        md:w-[80%] md:mx-auto  justify-center items-center">
       <div className="text-center md:text-left">
         <p className="font-medium md:text-7xl text-4xl mb-5">
           One Step <br /> Closer To Your <br />
@@ -20,6 +22,7 @@ const Header = () => {
         <img src="P3OLGJ1 copy 1.png" alt="" />
       </div>
     </div>
+       </div>
     );
 };
 

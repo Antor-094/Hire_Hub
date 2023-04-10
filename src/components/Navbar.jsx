@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 md:w-[80%] md:mx-auto">
+        <div className='bg-gradient-to-r from-indigo-100 to-purple-300'>
+          <div className="navbar  md:w-[80%] md:mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -58,6 +59,7 @@ const Navbar = () => {
           <Link className="btn-main">Star Applying</Link>
         </div>
       </div>
+        </div>
     );
 };
 
