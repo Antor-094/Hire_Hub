@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 import { addToDb, getAppliedJob } from "../fakedb";
 import DynamicHeader from "./DynamicHeader";
@@ -28,7 +29,12 @@ const JobDetails = () => {
   const handleButtonClick = (id) => {
     const appliedJobs = getAppliedJob();
     if (appliedJobs.hasOwnProperty(id)) {
-      alert('antor nadia')
+      swal({
+        title: "❌",
+        text: "You have already applied for it!",
+        icon: "warning",
+        button: "ok",
+      });
     } else {
       addToDb(id);
     }

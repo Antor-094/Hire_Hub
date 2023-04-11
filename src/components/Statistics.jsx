@@ -38,7 +38,7 @@ const Statistics = () => {
     <div>
       <Header2>Statistics</Header2>
       <div className="flex justify-center h-full">
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="90%" height={400}>
           <PieChart>
             <Pie
               dataKey="value"

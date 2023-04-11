@@ -1,12 +1,15 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <div className='' style={{
-    backgroundImage: `linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)`,
-  }}>
-          <div className="navbar  md:w-[80%] md:mx-auto">
+  return (
+    <div
+      className=""
+      style={{
+        backgroundImage: `linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)`,
+      }}
+    >
+      <div className="navbar  md:w-[80%] md:mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,36 +33,38 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <NavLink to='/'>Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to='/statistics'>Statistics</NavLink>
+                <NavLink to="/statistics">Statistics</NavLink>
               </li>
               <li tabIndex={0}>
-                <NavLink to="/applied-jobs" className="justify-between">Applied Jobs</NavLink>
+                <NavLink to="/applied-jobs" className="justify-between">
+                  Applied Jobs
+                </NavLink>
               </li>
               <li>
-                <NavLink to='/blog'>Blog</NavLink>
+                <NavLink to="/blog">Blog</NavLink>
               </li>
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">
-          HireHub
+          <Link to="/" className="btn btn-ghost normal-case text-xl font-bold">
+            HireHub
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex text-[#757575]">
           <ul className="menu menu-horizontal px-1 ">
-          <li>
-                <NavLink to='/'>Home</NavLink>
-              </li>
             <li>
-              <Link to='/statistics'>Statistics</Link>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/statistics">Statistics</NavLink>
             </li>
             <li tabIndex={0}>
-              <Link to="/applied-jobs">Applied Jobs</Link>
+              <NavLink to="/applied-jobs">Applied Jobs</NavLink>
             </li>
             <li>
-              <Link to='/blog'>Blog</Link>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
           </ul>
         </div>
@@ -67,8 +72,8 @@ const Navbar = () => {
           <Link className="btn-main">Star Applying</Link>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Navbar;
