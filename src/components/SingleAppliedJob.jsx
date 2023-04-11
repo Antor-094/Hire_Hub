@@ -2,6 +2,7 @@ import { faDollarSign, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
+import Header2 from "./Header2";
 
 const SingleAppliedJob = ({ job }) => {
   console.log(job);

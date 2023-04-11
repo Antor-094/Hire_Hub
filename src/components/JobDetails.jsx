@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 import { addToDb, getAppliedJob } from "../fakedb";
 import DynamicHeader from "./DynamicHeader";
+import Header2 from "./Header2";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faDollarSign, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const JobDetails = () => {
@@ -34,7 +35,7 @@ const JobDetails = () => {
   };
   return (
     <div>
-       <DynamicHeader></DynamicHeader>
+       <Header2>Job Details</Header2>
 
       <div>
         <div className="mt-32 md:w-[80%] mx-auto md:flex gap-6">
