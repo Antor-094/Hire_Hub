@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "company_logo": "../src/assets/featuredjobslogo/Apple-Logo.png",
+      "company_logo": "https://i.ibb.co/5M786zc/Apple-Logo.png",
       "title": "Product Designer",
       "company_name": "Apple",
       "remote_or_onsite": "Onsite",
@@ -56,7 +56,7 @@
     },
     {
       "id": 4,
-      "company_logo": "../src/assets/featuredjobslogo/amazon-logo-1.jpg",
+      "company_logo": "https://i.ibb.co/r3T38dK/amazon-logo-1.jpg",
       "title": "Data Scientist",
       "company_name": "Amazon",
       "remote_or_onsite": "Onsite",
@@ -92,7 +92,7 @@
     },
     {
       "id": 6,
-      "company_logo": "../src/assets/featuredjobslogo/sp.png",
+      "company_logo": "https://i.ibb.co/W0vZc9Y/spacexbyme-1.png",
       "title": "Flight Software Engineer",
       "company_name": "SpaceX",
       "remote_or_onsite": "Onsite",

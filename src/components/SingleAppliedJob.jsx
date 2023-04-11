@@ -18,10 +18,10 @@ const SingleAppliedJob = ({ job }) => {
   } = job;
   return (
     <div>
-      <div className="bg-white border border-solid border-[#E8E8E8] p-5 rounded-lg flex items-center justify-between mt-6">
-        <div className="flex gap-5">
+      <div className="bg-white border border-solid border-[#E8E8E8] p-5 rounded-lg md:flex items-center justify-between mt-6">
+        <div className="md:flex gap-5">
           <div className="bg-card px-5 pt-16">
-            <img className=" h-9 mb-8 " src={company_logo} alt="" />
+            <img className=" h-9 md:w-20 mb-8 " src={company_logo} alt="" />
           </div>
 
           <div className="mt-4 gap-8">

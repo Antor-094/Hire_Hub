@@ -15,7 +15,7 @@ const Job = ({ job }) => {
   } = job;
   return (
     <div className="bg-white border border-solid border-[#E8E8E8] p-9 rounded-lg">
-      <img className=" h-16 w-19 mb-8" src={company_logo} alt="" />
+      <img className="w-[30%] mb-8" src={company_logo} alt="" />
       <p className="font-bold mb-2">{title}</p>
       <p className="font-thin text-[#474747]">{company_name}</p>
       <div className="mt-4 flex gap-8">
