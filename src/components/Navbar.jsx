@@ -3,7 +3,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='bg-gradient-to-r from-indigo-100 to-purple-300'>
+        <div className='' style={{
+    backgroundImage: `linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)`,
+  }}>
           <div className="navbar  md:w-[80%] md:mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -28,6 +30,9 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
+                <NavLink to='/'>Home</NavLink>
+              </li>
+              <li>
                 <NavLink to='/statistics'>Statistics</NavLink>
               </li>
               <li tabIndex={0}>
@@ -39,11 +44,14 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">
-          JobOpportunities
+          HireHub
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex text-[#757575]">
           <ul className="menu menu-horizontal px-1 ">
+          <li>
+                <NavLink to='/'>Home</NavLink>
+              </li>
             <li>
               <Link to='/statistics'>Statistics</Link>
             </li>

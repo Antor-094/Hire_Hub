@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-       <div className='bg-gradient-to-r from-indigo-100 to-purple-300'>
+       <div className='' style={{
+        backgroundImage: `linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)`,
+      }}>
          <div className="flex flex-col-reverse md:flex-row gap-16 -mt-0  
         md:w-[80%] md:mx-auto  justify-center items-center">
       <div className="text-center md:text-left">

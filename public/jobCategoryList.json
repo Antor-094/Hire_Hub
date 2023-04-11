@@ -1,22 +1,22 @@
 {
     "categories": [
       {
-        "logo": "../src/assets/jobListImages/What_is_Information_Technology.webp",
+        "logo": "https://i.ibb.co/9qQ9Ch5/What-is-Information-Technology.webp",
         "name": "IT",
         "jobs_available": 1056
       },
       {
-        "logo": "../src/assets/jobListImages/Healthcare.webp",
+        "logo": "https://i.ibb.co/3hxv0yg/Healthcare.webp",
         "name": "Healthcare",
         "jobs_available": 867
       },
       {
-        "logo": "../src/assets/jobListImages/education.jpg",
+        "logo": "https://i.ibb.co/f1ZpgXt/education.jpg",
         "name": "Education",
         "jobs_available": 634
       },
       {
-        "logo": "../src/assets/jobListImages/Arker_Blog_01_Sales_Finance_2560px.jpg",
+        "logo": "https://i.ibb.co/pdB2S5Q/Arker-Blog-01-Sales-Finance-2560px.jpg",
         "name": "Finance",
         "jobs_available": 512
       }

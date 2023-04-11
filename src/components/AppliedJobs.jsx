@@ -3,7 +3,8 @@ import { useLoaderData } from "react-router-dom";
 import SingleAppliedJob from "./SingleAppliedJob";
 import Header2 from "./Header2";
 import { getAppliedJob } from "../fakedb";
-
+import { faDroplet,faList } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const AppliedJobs = () => {
   const getJobDetails = useLoaderData();
   const [filterBy, setFilterBy] = useState("");
@@ -31,7 +32,8 @@ const AppliedJobs = () => {
         <div className="flex justify-end">
           <div className="dropdown dropdown-left">
             <label tabIndex={0} className="btn m-1">
-              Sort By
+              Sort By <FontAwesomeIcon icon={faList} />
+
             </label>
             <ul
               tabIndex={0}

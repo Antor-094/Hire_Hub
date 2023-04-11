@@ -3,6 +3,7 @@ import Header from "./Header";
 import JobCat from "./JobCat";
 import FeaturedJob from "./FeaturedJob";
 import { useLoaderData } from "react-router-dom";
+
 // export const FeaturedJobContext = createContext([]);
 // export const jobCategoryListContext = createContext([])
 const Home = () => {
