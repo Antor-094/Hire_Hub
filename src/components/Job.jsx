@@ -35,7 +35,7 @@ const Job = ({ job }) => {
           <FontAwesomeIcon icon={faDollarSign} /> {salary}
         </p>
       </div>
-      <Link to={`/job/${job.id}`}>
+      <Link to={`./job/${job.id}`}>
         <button className="btn-main mt-5">View Details</button>
       </Link>
     </div>
