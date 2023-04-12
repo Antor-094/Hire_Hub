@@ -8,3 +8,6 @@
   .text-main {
     @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] bg-clip-text text-transparent font-medium;
   }
+  .footer-text-color{
+    color:rgba(255, 255, 255, 0.7);
+  }
