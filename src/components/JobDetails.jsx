@@ -40,7 +40,7 @@ const JobDetails = () => {
     <div>
        <Header2>Job Details</Header2>
 
-      <div className="p-2">
+      <div className="p-2 ">
         <div className="mt-32 md:w-[80%] mx-auto md:flex gap-6">
           <div className="md:w-7/12">
             <p className="font-bold text-base">

@@ -11,7 +11,7 @@ const FeaturedJob = ({ allJobs }) => {
   };
 
   return (
-    <div className="md:w-[80%] mx-auto mt-20">
+    <div className="md:w-[80%] mx-auto mt-20 p-2 ">
       <h1 className="font-extrabold text-4xl text-center">Featured Jobs</h1>
       <p className="text-center my-3 mb-8">
       Discover countless career prospects with comprehensive details you require. It's your destiny.

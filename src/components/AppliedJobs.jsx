@@ -48,7 +48,7 @@ const AppliedJobs = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-16">
+        <div className="mt-16 p-2">
           {matchedData.map((job) => (
             <SingleAppliedJob key={job.id} job={job} />
           ))}
